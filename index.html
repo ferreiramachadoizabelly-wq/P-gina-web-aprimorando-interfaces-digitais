@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog da Turma 1D | Educação Digital</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="header-container">
+            <h1>Turma 1D — Web Dev</h1>
+            <p>Diário de bordo das aulas de Educação Digital</p>
+        </div>
+        <button id="theme-toggle">Modo Escuro</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#posts">Artigos</a></li>
+            <li><a href="#sobre">Sobre a Turma</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="posts" class="main-content">
+            <article class="card">
+                <h2>Primeiros Passos com HTML5: Estruturando Ideias</h2>
+                <span class="date">Publicado em: 10 de Março</span>
+                <p>Nesta semana aprendemos as tags essenciais da Web! Descobrimos como organizar títulos, parágrafos e imagens para criar a estrutura base de um site.</p>
+                <button class="like-btn">❤️ <span class="like-count">0</span> Curtidas</button>
+            </article>
+
+            <article class="card">
+                <h2>Dominando o CSS3: Cores, Fontes e Flexbox</h2>
+                <span class="date">Publicado em: 17 de Março</span>
+                <p>Nossos projetos ganharam vida! Aplicamos estilos modernos usando CSS, aprendemos sobre alinhamento de elementos e deixamos as páginas adaptáveis para celular.</p>
+                <button class="like-btn">❤️ <span class="like-count">0</span> Curtidas</button>
+            </article>
+
+            <article class="card">
+                <h2>Interatividade com JavaScript: Criando Lógica</h2>
+                <span class="date">Publicado em: 24 de Março</span>
+                <p>A aula mais esperada! Aprendemos variáveis, funções e como manipular o DOM para fazer o site reagir às ações do usuário.</p>
+                <button class="like-btn">❤️ <span class="like-count">0</span> Curtidas</button>
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <div class="card" id="sobre">
+                <h3>Sobre a Turma 1D</h3>
+                <p>Somos estudantes focados em explorar o mundo do desenvolvimento web na disciplina de Educação Digital, transformando teoria em códigos reais.</p>
+            </div>
+            <div class="card">
+                <h3>Tecnologias Estudadas</h3>
+                <ul>
+                    <li>HTML5 (Estrutura)</li>
+                    <li>CSS3 (Design)</li>
+                    <li>JavaScript (Lógica)</li>
+                    <li>Git & GitHub (Versioneamento)</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Turma 1D — Aulas de Educação Digital</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
